@@ -12,12 +12,17 @@
                </template>
               <el-menu-item-group>
                 <template slot="title">分组一</template>
+<<<<<<< HEAD
                 <el-menu-item index="1-1">
                    <router-link to="/page1">选项1</router-link>
                 </el-menu-item>
                 <el-menu-item index="1-2">
                     <router-link to="/page2" style="display: block;width:100%;height:100%;text-decoration:none">选项2</router-link>
                 </el-menu-item>
+=======
+                <el-menu-item index="1-1">选项1</el-menu-item>
+                <el-menu-item index="1-2">选项2</el-menu-item>
+>>>>>>> 7d0846d066529e391563bdc3ecc07e0542ec6bb0
               </el-menu-item-group>
               <el-menu-item-group title="分组2">
                 <el-menu-item index="1-3">选项3</el-menu-item>
@@ -44,8 +49,13 @@
 
         <el-col :span="20" class="content">
              
+<<<<<<< HEAD
               
               
+=======
+              <router-link to="/page1">page1</router-link>
+              <router-link to="/page2">page2</router-link>
+>>>>>>> 7d0846d066529e391563bdc3ecc07e0542ec6bb0
              <router-view></router-view>
               
         </el-col>
@@ -72,6 +82,7 @@ export default {
    }
 }
 </script>
+<<<<<<< HEAD
 <style>
    a{
     display: block;
@@ -82,4 +93,6 @@ export default {
 
 
 
+=======
+>>>>>>> 7d0846d066529e391563bdc3ecc07e0542ec6bb0
 
